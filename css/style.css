@@ -1,0 +1,34 @@
+body {
+  margin: 50px auto;
+  max-width: 1200px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+input, select {
+  font-size: 22px;
+}
+
+.user-list {
+  background-color: #eee;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.user-list .user {
+  flex-basis: 30%;
+  display: flex;
+}
+
+.user-list .user__image {
+  order: -1;
+  padding: 20px;
+}
+
+.user-list .user__name {
+  -ms-grid-row-align: center;
+      align-self: center;
+}
+/*# sourceMappingURL=style.css.map */
