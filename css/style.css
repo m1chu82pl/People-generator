@@ -5,6 +5,33 @@ body {
   font-size: 22px;
 }
 
+.generator {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-150px);
+          transform: translate(-150px);
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #b4abab;
+  border: 1px double brown;
+}
+
+.generator__input-name {
+  width: 300px;
+  margin: 10px;
+}
+
+.generator__input {
+  width: 40%;
+}
+
+.generator .button {
+  margin: 10px;
+  margin-left: 15px;
+}
+
 input, select {
   font-size: 22px;
 }
